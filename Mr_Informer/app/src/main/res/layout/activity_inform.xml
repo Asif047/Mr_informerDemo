@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asif047.mr_informer.InformActivity">
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="Phone"
+        android:digits="1234567890"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Message"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/imageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Image name"
+        android:inputType="textPersonName" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <Button
+            android:id="@+id/choose_bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose"
+            android:layout_marginLeft="100dp"
+            />
+
+
+        <Button
+            android:id="@+id/upload_bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upload"
+            />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageview"
+
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/insert"
+
+
+            android:text="send"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFDB63"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:layout_margin="40dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
